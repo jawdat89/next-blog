@@ -8,5 +8,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"), // https://tailwindcss.com/docs/typography-plugin#changing-the-default-class-name
+  ],
 };
